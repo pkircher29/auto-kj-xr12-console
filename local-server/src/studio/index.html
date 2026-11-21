@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto-KJ · XR12 studio console</title><link rel="stylesheet" href="/console.css"><script type="module" src="/console.js"></script></head>
+<body><main>
+<header><b>Auto-KJ</b><span>XR12 / STUDIO CONSOLE</span><small id="status">Connecting</small></header>
+<div class="bridge"><section class="pre"><strong id="selection"></strong><p>OUTPUT ASSIGN</p><div class="assign" id="assign"></div></section>
+<section class="crt"><nav id="pages" aria-label="Console pages"></nav><div id="screen"></div></section>
+<section class="vu" aria-label="Program meters">
+  <div class="gauge off" id="left"><span>L —</span><i class="meter-scale" aria-hidden="true"></i></div>
+  <div class="gauge off" id="right"><span>R —</span><i class="meter-scale" aria-hidden="true"></i></div>
+  <small id="meter-state">MAIN LR</small>
+</section></div>
+<nav id="banks" class="bar" aria-label="Fader mix"></nav><div id="deck" class="deck"></div>
+<footer><output id="notice" role="status"></output><button id="arm" disabled>Enable mixer control</button></footer>
+</main></body></html>

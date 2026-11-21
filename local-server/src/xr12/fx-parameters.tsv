@@ -1,0 +1,959 @@
+HALL
+PreDelay	0	200	101	ms
+Decay	0.2	5	-51	s
+Size	2	100	50	
+Damping	1000	20000	-25	Hz
+Diffusion	1	30	30	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+BassMult	0.5	2	-51	
+Spread	0	50	51	
+Shape	0	250	51	
+ModSpeed	0	100	21	
+CHAM
+PreDelay	0	200	101	ms
+Decay	0.3	29	-51	s
+Size	4	76	37	m
+Damping	1000	20000	-25	Hz
+Diffusion	0	100	26	%
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+BassMult	0.25	4	-53	
+Spread	0	50	51	
+Shape	0	250	51	
+ModSpin	0	100	21	%
+ERLeft	0	500	101	ms
+ERRight	0	500	101	ms
+ERLevelL	0	100	51	%
+ERLevelR	0	100	51	%
+ROOM
+PreDelay	0	200	101	ms
+Decay	0.3	29	-51	s
+Size	4	76	37	m
+Damping	1000	20000	-25	Hz
+Diffusion	0	100	26	%
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+BassMult	0.25	4	-53	
+Spread	0	50	51	
+Shape	0	250	51	
+ModSpin	0	100	21	%
+EchoLeft	0	1200	241	ms
+EchoRight	0	1200	241	ms
+EchoFbL	-100	100	101	%
+EchoFbR	-100	100	101	%
+RPLT
+PreDelay	0	200	101	ms
+Decay	0.3	29	-51	s
+Size	4	39	36	m
+Damping	1000	20000	-25	Hz
+Diffusion	0	100	26	%
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+BassMult	0.25	4	-53	
+Spread	0	50	51	
+Attack	0	100	51	
+ModSpin	0	100	21	%
+EchoLeft	0	1200	241	ms
+EchoRight	0	1200	241	ms
+EchoFbL	-100	100	101	%
+EchoFbR	-100	100	101	%
+PLAT
+PreDelay	0	200	101	ms
+Decay	0.5	10	-51	s
+Size	2	100	50	
+Damping	1000	20000	-25	Hz
+Diffusion	1	30	30	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+BassMult	0.5	2	-51	
+Xover	10	500	-51	Hz
+ModDepth	1	50	50	
+ModSpeed	0	100	21	
+AMBI
+PreDelay	0	200	101	ms
+Decay	0.2	7.3	-51	s
+Size	2	100	50	
+Damping	1000	20000	-25	Hz
+Diffusion	1	30	30	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+Mod	0	100	51	%
+TailGain	0	100	51	%
+GATE
+PreDelay	0	200	101	ms
+Decay	140	1000	51	ms
+Attack	0	30	31	
+Density	1	50	50	
+Spread	0	100	51	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiSvFreq	200	20000	-51	Hz
+HiSvGain	-30	0	61	dB
+Diffusion	1	30	30	
+RVRS
+PreDelay	0	200	101	ms
+Decay	140	1000	-51	ms
+Rise	0	50	51	
+Diffusion	1	30	30	
+Spread	0	100	51	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiSvFreq	200	20000	-51	Hz
+HiSvGain	-30	0	61	dB
+VRM
+RevDelay	0	200	101	ms
+Decay	0.1	20	-51	s
+Size	2	100	50	
+Density	1	30	30	
+ERLevel	0	100	51	%
+Level	-12	12	49	dB
+LoMult	0.1	10	-51	
+HiMult	0.1	10	-51	
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+ERLeft	0	200	101	ms
+ERRight	0	200	101	ms
+Freeze	0	1	2	
+VREV
+PreDelay	0	120	61	ms
+Decay	0.4	4.5	42	s
+Mod	0	100	51	%
+Vintage	0	1	2	
+Output	0	1	2	
+Level	-12	12	49	dB
+LoCut	10	500	-51	Hz
+HiCut	10000	20000	-51	Hz
+LoMult	0.5	2	-51	
+HiMult	0.25	1	-51	
+CRS
+Speed	0.05	5	-101	Hz
+DepthL	0	100	21	%
+DepthR	0	100	21	%
+DelayL	0.5	50	-51	ms
+DelayR	0.5	50	-51	ms
+Mix	0	100	51	%
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+Phase	0	180	37	
+Wave	0	100	21	%
+Spread	0	100	21	%
+FLNG
+Speed	0.05	5	-101	Hz
+DepthL	0	100	21	%
+DepthR	0	100	21	%
+DelayL	0.5	20	-51	ms
+DelayR	0.5	20	-51	ms
+Mix	0	100	51	%
+LoCut	10	500	-51	Hz
+HiCut	200	20000	-51	Hz
+Phase	0	180	37	
+FeedLC	10	500	-51	Hz
+FeedHC	200	20000	-51	Hz
+Feed	-90	90	37	%
+PIT
+Semi	-12	12	25	
+Cent	-50	50	101	
+Delay	1	500	-101	ms
+LoCut	10	500	-51	Hz
+HiCut	2000	20000	-51	Hz
+Mix	0	100	51	%
+PIT2
+Semi  1	-12	12	25	
+Cent  1	-50	50	101	
+Delay 1	1	500	-101	ms
+Gain  1	0	100	51	%
+Pan   1	-100	100	41	%
+Mix	0	100	51	%
+Semi  2	-12	12	25	
+Cent  2	-50	50	101	
+Delay 2	1	500	-101	ms
+Gain  2	0	100	51	%
+Pan   2	-100	100	41	%
+HiCut	2000	20000	-51	Hz
+CR/R
+Speed	0.05	4	-101	Hz
+Depth	0	100	21	%
+Delay	0.5	50	-51	ms
+Phase	0	180	37	
+Wave	0	100	21	%
+Balance	-100	100	41	
+PreDelay	0	200	101	ms
+Decay	0.1	5	-51	s
+Size	2	100	50	
+Damp	1000	20000	-51	Hz
+LoCut	10	500	-51	Hz
+Mix	0	100	51	%
+FL/R
+Speed	0.05	4	-101	Hz
+Depth	0	100	21	%
+Delay	0.5	20	-51	ms
+Phase	0	180	37	
+Feed	-90	90	37	%
+Balance	-100	100	41	
+PreDelay	0	200	101	ms
+Decay	0.1	5	-51	s
+Size	2	100	50	
+Damp	1000	20000	-51	Hz
+LoCut	10	500	-51	Hz
+Mix	0	100	51	%
+D/RV
+Time	1	3000	3000	ms
+Pattern	0	13	14	
+FeedHC	1000	20000	-51	Hz
+Feedback	0	100	51	%
+X-Feed	0	100	51	%
+Balance	-100	100	41	
+PreDelay	0	200	101	ms
+Decay	0.1	5	-51	s
+Size	2	100	50	
+Damp	1000	20000	-51	Hz
+LoCut	10	500	-51	Hz
+Mix	0	100	51	%
+D/CR
+Time	1	3000	3000	ms
+Pattern	0	13	14	
+FeedHC	1000	20000	-51	Hz
+Feedback	0	100	51	%
+X-Feed	0	100	51	%
+Balance	-100	100	41	
+Speed	0.05	4	-101	Hz
+Depth	0	100	21	%
+Delay	0.5	50	-51	ms
+Phase	0	180	37	
+Wave	0	100	21	%
+Mix	0	100	51	%
+D/FL
+Time	1	3000	3000	ms
+Pattern	0	13	14	
+FeedHC	1000	20000	-51	Hz
+Feedback	0	100	51	%
+X-Feed	0	100	51	%
+Balance	-100	100	41	
+Speed	0.05	4	-101	Hz
+Depth	0	100	21	%
+Delay	0.5	20	-51	ms
+Phase	0	180	37	
+Feed	-90	90	37	%
+Mix	0	100	51	%
+MODD
+Time	1	3000	3000	ms
+Factor	0	3	4	
+Feedback	0	100	51	%
+FeedLC	10	500	-51	Hz
+FeedHC	200	20000	-51	Hz
+Depth	0	100	21	%
+Speed	0.05	10	-101	Hz
+Serial	0	1	2	
+Rtype	0	2	3	
+Decay	1	10	19	
+Damp	1000	20000	-51	Hz
+Balance	-100	100	41	
+Mix	0	100	51	%
+DLY
+Mix	0	100	51	%
+Time	1	3000	3000	ms
+Mode	0	2	3	
+FactorL	0	8	9	
+FactorR	0	8	9	
+Offset	-100	100	201	ms
+LC	10	500	-51	Hz
+HC	200	20000	-51	Hz
+FeedLC	10	500	-51	Hz
+FeedL	0	100	51	%
+FeedR	0	100	51	%
+FeedHC	200	20000	-51	Hz
+3TAP
+Time	1	3000	3000	ms
+GainT	0	100	51	%
+PanT	-100	100	41	%
+Feedback	0	100	51	%
+LC	10	500	-51	Hz
+HC	200	20000	-51	Hz
+FactorA	0	8	9	
+GainA	0	100	51	%
+PanA	-100	100	41	%
+FactorB	0	8	9	
+GainB	0	100	51	%
+PanB	-100	100	41	%
+X-Feed	0	1	2	
+Mono	0	1	2	
+Dry	0	1	2	
+4TAP
+Time	1	3000	3000	ms
+Gain	0	100	51	%
+Feedback	0	100	51	%
+LC	10	500	-51	Hz
+HC	200	20000	-51	Hz
+Spread	0	6	7	
+FactorA	0	8	9	
+GainA	0	100	51	%
+FactorB	0	8	9	
+GainB	0	100	51	%
+FactorC	0	8	9	
+GainC	0	100	51	%
+X-Feed	0	1	2	
+Mono	0	1	2	
+Dry	0	1	2	
+GEQ
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+Lvl	-15	+15	61	dB
+GEQ2
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+LvlA	-15	+15	61	dB
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+LvlB	-15	+15	61	dB
+TEQ
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+Lvl	-15	+15	61	dB
+TEQ2
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+LvlA	-15	+15	61	dB
+20	-15	+15	61	dB
+25	-15	+15	61	dB
+31.5	-15	+15	61	dB
+40	-15	+15	61	dB
+50	-15	+15	61	dB
+63	-15	+15	61	dB
+80	-15	+15	61	dB
+100	-15	+15	61	dB
+125	-15	+15	61	dB
+160	-15	+15	61	dB
+200	-15	+15	61	dB
+250	-15	+15	61	dB
+315	-15	+15	61	dB
+400	-15	+15	61	dB
+500	-15	+15	61	dB
+630	-15	+15	61	dB
+800	-15	+15	61	dB
+1k	-15	+15	61	dB
+1k25	-15	+15	61	dB
+1k6	-15	+15	61	dB
+2k	-15	+15	61	dB
+2k5	-15	+15	61	dB
+3k15	-15	+15	61	dB
+4k	-15	+15	61	dB
+5k	-15	+15	61	dB
+6k3	-15	+15	61	dB
+8k	-15	+15	61	dB
+10k	-15	+15	61	dB
+12k5	-15	+15	61	dB
+16k	-15	+15	61	dB
+20k	-15	+15	61	dB
+LvlB	-15	+15	61	dB
+PHAS
+Speed	0.05	5	-101	Hz
+Depth	0	100	51	%
+Reso	0	80	41	%
+Base	0	50	26	
+Stages	2	12	11	
+Mix	0	100	51	%
+Wave	-50	50	21	
+Phase	0	180	37	
+EnvMod	-100	100	41	%
+Attack	10	1000	-51	ms
+Hold	1	2000	-51	ms
+Release	10	1000	-51	ms
+ROTA
+LoSpeed	0.1	4	-101	Hz
+HiSpeed	2	10	-101	Hz
+Accel	0	100	51	%
+Distance	0	100	51	%
+Balance	-100	100	41	%
+Mix	0	100	51	%
+StopSW	0	1	2	
+SpeedSW	0	1	2	
+WAVD
+AttackA	-100	100	101	%
+SustainA	-100	100	101	%
+OutGainA	-24	24	97	dB
+AttackB	-100	100	101	%
+SustainB	-100	100	101	%
+OutGainB	-24	24	97	dB
+LIM
+InGain	0	18	37	dB
+OutGain	-18	0	37	dB
+Squeeze	0	100	51	%
+Knee	0	10	11	dB
+Attack	0.05	1	-51	ms
+Release	20	2000	-51	ms
+STLink	0	1	2	
+AutoGain	0	1	2	
+ENH
+OutGain	-12	12	49	dB
+Spread	0	100	51	%
+BassGain	0	100	51	%
+BassFreq	1	50	50	
+MidGain	0	100	51	%
+MidQ	1	50	50	
+HiGain	0	100	51	%
+HiFreq	1	50	50	
+Solo	0	1	2	
+ENH2
+OutGain	-12	12	49	dB
+BassGain	0	100	51	%
+BassFreq	1	50	50	
+MidGain	0	100	51	%
+MidQ	1	50	50	
+HiGain	0	100	51	%
+HiFreq	1	50	50	
+Solo	0	1	2	
+OutGain	-12	12	49	dB
+BassGain	0	100	51	%
+BassFreq	1	50	50	
+MidGain	0	100	51	%
+MidQ	1	50	50	
+HiGain	0	100	51	%
+HiFreq	1	50	50	
+Solo	0	1	2	
+EXC
+Tune	1000	10000	-51	Hz
+Peak	0	100	51	%
+ZeroFill	0	100	51	%
+Timbre	-50	50	51	
+Harmonics	0	100	51	%
+Mix	0	100	51	%
+Solo	0	1	2	
+EXC2
+Tune	1000	10000	-51	Hz
+Peak	0	100	51	%
+ZeroFill	0	100	51	%
+Timbre	-50	50	51	
+Harmonics	0	100	51	%
+Mix	0	100	51	%
+Solo	0	1	2	
+Tune	1000	10000	-51	Hz
+Peak	0	100	51	%
+ZeroFill	0	100	51	%
+Timbre	-50	50	51	
+Harmonics	0	100	51	%
+Mix	0	100	51	%
+Solo	0	1	2	
+AMP
+PreAmp	0	10	41	
+Buzz	0	10	41	
+Punch	0	10	41	
+Crunch	0	10	41	
+Drive	0	10	41	
+Level	0	10	41	
+Low	0	10	41	
+High	0	10	41	
+Cabinet	0	1	2	
+AMP2
+PreAmp	0	10	41	
+Buzz	0	10	41	
+Punch	0	10	41	
+Crunch	0	10	41	
+Drive	0	10	41	
+Level	0	10	41	
+Low	0	10	41	
+High	0	10	41	
+Cabinet	0	1	2	
+PreAmp	0	10	41	
+Buzz	0	10	41	
+Punch	0	10	41	
+Crunch	0	10	41	
+Drive	0	10	41	
+Level	0	10	41	
+Low	0	10	41	
+High	0	10	41	
+Cabinet	0	1	2	
+DRV
+Drive	0	100	21	%
+Even	0	50	26	%
+Odd	0	50	26	%
+Gain	-12	12	49	dB
+LoCut	20	200	-51	Hz
+HiCut	4000	20000	-51	Hz
+LoGain	-12	12	49	dB
+LoFreq	50	400	-51	Hz
+HiGain	-12	12	49	dB
+HiFreq	1000	10000	-51	Hz
+DRV2
+Drive	0	100	21	%
+Even	0	50	26	%
+Odd	0	50	26	%
+Gain	-12	12	49	dB
+LoCut	20	200	-51	Hz
+HiCut	4000	20000	-51	Hz
+LoGain	-12	12	49	dB
+LoFreq	50	400	-51	Hz
+HiGain	-12	12	49	dB
+HiFreq	1000	10000	-51	Hz
+Drive	0	100	21	%
+Even	0	50	26	%
+Odd	0	50	26	%
+Gain	-12	12	49	dB
+LoCut	20	200	-51	Hz
+HiCut	4000	20000	-51	Hz
+LoGain	-12	12	49	dB
+LoFreq	50	400	-51	Hz
+HiGain	-12	12	49	dB
+HiFreq	1000	10000	-51	Hz
+IMG
+Balance	-100	100	101	%
+MonoPan	-100	100	101	%
+StereoPan	-100	100	101	%
+ShvGain	0	12	25	dB
+ShvFreq	100	1000	-25	Hz
+ShvQ	1	10	-25	
+OutGain	-12	12	49	dB
+PAN
+Speed	0.05	5	-101	Hz
+Phase	0	180	37	
+Wave	-50	50	21	
+Depth	0	100	21	%
+EnvSpd	0	100	21	%
+EnvDepth	0	100	21	%
+Attack	10	1000	-51	ms
+Hold	1	2000	-51	ms
+Release	10	1000	-51	ms
+FILT
+Speed	0.05	20	-151	Hz
+Depth	0	100	51	%
+Reso	0	100	21	%
+Base	20	15000	-101	Hz
+Mode	0	3	4	
+Mix	0	100	51	%
+Wave	0	6	7	
+Phase	0	180	37	
+EnvMod	-100	100	101	%
+Attack	10	250	-51	ms
+Release	10	500	-51	ms
+Drive	0	100	51	%
+4pole	0	1	2	
+SideChain	0	1	2	
+DES
+Low (M)	0	50	51	
+High (M)	0	50	51	
+Low S	0	50	51	
+High S	0	50	51	
+Male	0	1	2	
+M/S	0	1	2	
+DES2
+Low A	0	50	51	
+High A	0	50	51	
+Low B	0	50	51	
+High B	0	50	51	
+Male A	0	1	2	
+Male B	0	1	2	
+P1A
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Boost	0	10	101	
+Lo Freq	0	3	4	
+Lo Atten	0	10	101	
+Hi Width	0	10	101	
+Hi Boost	0	10	101	
+Hi Freq	0	6	7	
+Hi Atten	0	10	101	
+Atten Fr	0	2	3	
+Transf	0	1	2	
+P1A2
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Boost	0	10	101	
+Lo Freq	0	3	4	
+Lo Atten	0	10	101	
+Hi Width	0	10	101	
+Hi Boost	0	10	101	
+Hi Freq	0	6	7	
+Hi Atten	0	10	101	
+Atten Fr	0	2	3	
+Transf	0	1	2	
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Boost	0	10	101	
+Lo Freq	0	3	4	
+Lo Atten	0	10	101	
+Hi Width	0	10	101	
+Hi Boost	0	10	101	
+Hi Freq	0	6	7	
+Hi Atten	0	10	101	
+Atten Fr	0	2	3	
+Transf	0	1	2	
+PQ5
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Freq	0	4	5	
+Lo Boost	0	10	101	
+Mid Freq	0	10	11	
+Mid Cut	0	10	101	
+Hi Freq	0	4	5	
+Hi Boost	0	10	101	
+Transf	0	1	2	
+PQ5S
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Freq	0	4	5	
+Lo Boost	0	10	101	
+Mid Freq	0	10	11	
+Mid Cut	0	10	101	
+Hi Freq	0	4	5	
+Hi Boost	0	10	101	
+Transf	0	1	2	
+On	0	1	2	
+Gain	-12	12	49	dB
+Lo Freq	0	4	5	
+Lo Boost	0	10	101	
+Mid Freq	0	10	11	
+Mid Cut	0	10	101	
+Hi Freq	0	4	5	
+Hi Boost	0	10	101	
+Transf	0	1	2	
+FAC
+On	0	1	2	
+InGain	-20	0	41	
+Threshold	0	10	101	
+Time	1	6	6	
+DCBias	0	100	51	%
+OutGain	-18	6	49	dB
+Balance	-100	100	41	%
+FAC
+On	0	1	2	
+InGain	-20	0	41	
+Threshold	0	10	101	
+Time	1	6	6	
+DCBias	0	100	51	%
+OutGain	-18	6	49	dB
+Balance	-100	100	41	%
+InGain	-20	0	41	
+Threshold	0	10	101	
+Time	1	6	6	
+DCBias	0	100	51	%
+OutGain	-18	6	49	dB
+Balance	-100	100	41	%
+FAC2
+On	0	1	2	
+InGain	-20	0	41	dB
+Threshold	0	10	101	
+Time	1	6	6	
+DCBias	0	100	51	%
+OutGain	-18	6	49	dB
+Balance	-100	100	41	%
+On	0	1	2	
+InGain	-20	0	41	dB
+Threshold	0	10	101	
+Time	1	6	6	
+DCBias	0	100	51	%
+OutGain	-18	6	49	dB
+Balance	-100	100	41	%
+LEC
+On	0	1	2	
+Gain	0	100	51	
+Peak Red	0	100	51	
+Mode	0	1	2	
+OutGain	-18	6	49	dB
+LEC2
+On	0	1	2	
+Gain	0	100	51	
+Peak Red	0	100	51	
+Mode	0	1	2	
+OutGain	-18	6	49	dB
+On	0	1	2	
+Gain	0	100	51	
+Peak Red	0	100	51	
+Mode	0	1	2	
+OutGain	-18	6	49	dB
+ULC
+On	0	1	2	
+InGain	-48	0	49	dB
+OutGain	-48	0	49	dB
+Attack	1	7	61	
+Release	1	7	61	
+Ratio	0	4	5	
+ULC2
+On	0	1	2	
+InGain	-48	0	49	dB
+OutGain	-48	0	49	dB
+Attack	1	7	61	
+Release	1	7	61	
+Ratio	0	4	5	
+On	0	1	2	
+InGain	-48	0	49	dB
+OutGain	-48	0	49	dB
+Attack	1	7	61	
+Release	1	7	61	
+Ratio	0	4	5	
+SON
+On	0	1	2	
+LoContour	0	10	51	
+Process	0	10	51	
+Gain	-12	12	49	dB
+On	0	1	2	
+LoContour	0	10	51	
+Process	0	10	51	
+Gain	-12	12	49	dB
+EDI
+On	0	1	2	
+In ST/MS	0	1	2	
+Out ST/MS	0	1	2	
+StSpread	-50	50	51	
+LMFSpread	-50	50	51	
+Balance	-50	50	51	
+CntrDist	-50	50	51	
+Gain	-12	12	49	dB
+SUB
+On	0	1	2	
+Range	0	2	3	
+Dry	0	100	51	%
+Oct1	0	100	51	%
+Oct2	0	100	51	%
+On	0	1	2	
+Range	0	2	3	
+Dry	0	100	51	%
+Oct1	0	100	51	%
+Oct2	0	100	51	%
+DIMC
+On	0	1	2	
+M/St	0	1	2	
+Dry	0	1	2	
+Sw1	0	1	2	
+Sw2	0	1	2	
+Sw3	0	1	2	
+Sw4	0	1	2	
+CMB
+On	0	1	2	
+SoloBd	0	5	6	
+Mix	0	100	51	%
+Attack	0	19	20	
+Release	20	3000	-51	ms
+AutoRel	0	1	2	
+SBC	1	10	10	
+SBCOn	0	1	2	
+XOSpc	-50	50	51	
+Slope	0	1	2	
+Ratio	0	13	14	
+Thresh	-40	0	81	dB
+Gain	-10	10	41	dB
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+MeterSel	0	2	3	
+CMB2
+On	0	1	2	
+SoloBd	0	5	6	
+Mix	0	100	51	%
+Attack	0	19	20	
+Release	20	3000	-51	ms
+AutoRel	0	1	2	
+SBC	1	10	10	
+SBCOn	0	1	2	
+XOSpc	-50	50	51	
+Slope	0	1	2	
+Ratio	0	13	14	
+Thresh	-40	0	81	dB
+Gain	-10	10	41	dB
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+MeterSel	0	2	3	
+On	0	1	2	
+SoloBd	0	5	6	
+Mix	0	100	51	%
+Attack	0	19	20	
+Release	20	3000	-51	ms
+AutoRel	0	1	2	
+SBC	1	10	10	
+SBCOn	0	1	2	
+XOSpc	-50	50	51	
+Slope	0	1	2	
+Ratio	0	13	14	
+Thresh	-40	0	81	dB
+Gain	-10	10	41	dB
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+ThrTrim	-10	10	41	dB
+GainTrim	-10	10	41	dB
+BdLock	0	1	2	
+MeterSel	0	2	3	

@@ -1,0 +1,17 @@
+[package]
+name = "autokj-xr12"
+version = "1.48.1"
+edition = "2021"
+publish = false
+license-file = "LICENSE"
+description = "Behringer XR12 mixer adapter for the Auto-KJ operator console"
+
+[lib]
+path = "local-server/src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "net", "rt-multi-thread", "sync", "time"] }
+tracing = "0.1"
+uuid = { version = "1", features = ["v4", "serde"] }
